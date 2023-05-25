@@ -28,7 +28,7 @@ Como usar
 
    bash
 
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/seu-usuario/santarita.git
 
    Abra o arquivo index.html em seu navegador de preferência para visualizar a página.
 
