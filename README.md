@@ -16,21 +16,21 @@ css
 ├── index.html
 └── README.md
 
-    A pasta css/ contém o arquivo CSS responsável pelo estilo da página.
-    A pasta js/ contém o arquivo JavaScript responsável pelas funcionalidades interativas da página.
-    A pasta img/ contém as imagens utilizadas na página.
-    O arquivo index.html é o ponto de entrada da Landing Page.
-    O arquivo README.md contém esta documentação.
+   A pasta css/ contém o arquivo CSS responsável pelo estilo da página.
+   A pasta js/ contém o arquivo JavaScript responsável pelas funcionalidades interativas da página.
+   A pasta img/ contém as imagens utilizadas na página.
+   O arquivo index.html é o ponto de entrada da Landing Page.
+   O arquivo README.md contém esta documentação.
 
 Como usar
 
-    Clone este repositório em sua máquina local:
+   Clone este repositório em sua máquina local:
 
-    bash
+   bash
 
     git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-    Abra o arquivo index.html em seu navegador de preferência para visualizar a página.
+   Abra o arquivo index.html em seu navegador de preferência para visualizar a página.
 
 Personalização
 
