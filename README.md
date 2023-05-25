@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Documentação da Landing Page
 
-## Getting Started
+Esta é a documentação para a Landing Page do projeto Santarita. A Landing Page é um site estático desenvolvido para promover e fornecer informações sobre o produto ou serviço oferecido pelo projeto.
+Estrutura do Projeto
 
-First, run the development server:
+O projeto está organizado da seguinte maneira:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+css
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+├── css/
+│   ├── style.css
+├── js/
+│   ├── script.js
+├── img/
+│   ├── logo.png
+├── index.html
+└── README.md
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    A pasta css/ contém o arquivo CSS responsável pelo estilo da página.
+    A pasta js/ contém o arquivo JavaScript responsável pelas funcionalidades interativas da página.
+    A pasta img/ contém as imagens utilizadas na página.
+    O arquivo index.html é o ponto de entrada da Landing Page.
+    O arquivo README.md contém esta documentação.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Como usar
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    Clone este repositório em sua máquina local:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    bash
 
-## Learn More
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-To learn more about Next.js, take a look at the following resources:
+    Abra o arquivo index.html em seu navegador de preferência para visualizar a página.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Personalização
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Caso deseje personalizar a Landing Page, você pode editar os arquivos css/style.css e js/script.js para ajustar o estilo e as funcionalidades de acordo com suas necessidades. Além disso, você pode substituir as imagens na pasta img/ pelos recursos gráficos desejados.
 
-## Deploy on Vercel
+Certifique-se de manter a estrutura básica do projeto intacta para garantir o funcionamento correto da página.
+Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Se você deseja contribuir com melhorias para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Será um prazer revisar suas sugestões e trabalhar juntos para aprimorar a Landing Page.
+Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+
+Esta é apenas uma estrutura básica de documentação para uma landing page. Sinta-se à vontade para adaptar e expandir essa documentação de acordo com as necessidades específicas do seu projeto.
