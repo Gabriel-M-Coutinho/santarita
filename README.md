@@ -7,18 +7,17 @@ O projeto está organizado da seguinte maneira:
 
 css
 
-├── css/
+├── styles/
 │   ├── style.css
-├── js/
-│   ├── script.js
-├── img/
-│   ├── logo.png
-├── index.html
+├── pages/
+│   ├── app.js
+├── components/
+│   ├── component.jsx
 └── README.md
 
-   A pasta css/ contém o arquivo CSS responsável pelo estilo da página.
-   A pasta js/ contém o arquivo JavaScript responsável pelas funcionalidades interativas da página.
-   A pasta img/ contém as imagens utilizadas na página.
+   A pasta styles/ contém os arquivos CSS responsável pelo estilo da página.
+   A pasta pages/ contém os arquivos JavaScript responsável pelas funcionalidades interativas da página.
+   A pasta components/ contém funçoes responsaveis por partes específicas da aplicação como a navbar
    O arquivo index.html é o ponto de entrada da Landing Page.
    O arquivo README.md contém esta documentação.
 
@@ -30,11 +29,14 @@ Como usar
 
     git clone https://github.com/seu-usuario/santarita.git
 
-   Abra o arquivo index.html em seu navegador de preferência para visualizar a página.
-
+   
+  execute o comando:
+   ```npm install```
+  agora é só iniciar o projeto com:
+   ```npm run dev ```
 Personalização
 
-Caso deseje personalizar a Landing Page, você pode editar os arquivos css/style.css e js/script.js para ajustar o estilo e as funcionalidades de acordo com suas necessidades. Além disso, você pode substituir as imagens na pasta img/ pelos recursos gráficos desejados.
+Caso deseje personalizar a Landing Page, você pode editar os arquivos dentro da pasta styles/ e pages/ para ajustar o estilo e as funcionalidades de acordo com suas necessidades. 
 
 Certifique-se de manter a estrutura básica do projeto intacta para garantir o funcionamento correto da página.
 Contribuição
