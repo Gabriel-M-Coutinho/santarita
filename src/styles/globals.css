@@ -35,12 +35,12 @@ body {
 }
 
 .WallHeader {
-  background: url("../../public/img/Fishing.png") no-repeat center center;
+  background: url("/img/Fishing.png") no-repeat center center;
   background-size: cover;
 }
 
 .WallAbout {
-  background: url("../../public/img/SantaRita.png") no-repeat center center;
+  background: url("/img/SantaRita.png") no-repeat center center;
   background-size: cover;
 }
 
