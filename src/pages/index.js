@@ -24,7 +24,7 @@ export default function Home() {
           <Header />
           <Cards />
           <About />
-          <Opening />
+
         </div>
       </main>
     </>

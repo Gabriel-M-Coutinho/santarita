@@ -64,9 +64,9 @@ body {
 .ToggleDir {
   width: 100%;
   display: flex;
-  justify-content: end;
-  align-items: end;
-  text-align: end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: flex-end;
   margin-right: 6px;
 }
 
@@ -187,7 +187,7 @@ p.HeadText {
 .AboutBack {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   max-width: 80vw;
   height: 75vmin;
 }
