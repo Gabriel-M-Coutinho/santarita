@@ -13,8 +13,7 @@ function Cards() {
             <Card.Img
               className="IconeCard"
               variant="top"
-              src="https://cdn-user-icons.flaticon.com/89477/89477285/1685118407448.svg?token=exp=1685119502~hmac=5ad6a61431c849e62b4cbeb102b36bef
-              "
+              src="/icons/koifish.png"
             />
             <Card.Body>
               <h3 className="TituloCard">Pesqueiro</h3>
@@ -30,7 +29,7 @@ function Cards() {
             <Card.Img
               className="IconeCard"
               variant="top"
-              src="https://cdn-user-icons.flaticon.com/89477/89477285/1685118408712.svg?token=exp=1685119502~hmac=9e02c4a34d56e5d162ac94ee8875a092"
+              src="/icons/fisher.png"
             />
             <Card.Body>
               <h3 className="TituloCard">Hospedagem</h3>
@@ -46,7 +45,7 @@ function Cards() {
             <Card.Img
               className="IconeCard"
               variant="top"
-              src="https://cdn-user-icons.flaticon.com/89477/89477285/1685118405651.svg?token=exp=1685119502~hmac=478cea3cd1cb90cd0cceb5dd85771cec"
+              src="/icons/fishfood.png"
             />
             <Card.Body>
               <h3 className="TituloCard">Restaurante</h3>

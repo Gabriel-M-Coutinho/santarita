@@ -35,14 +35,12 @@ body {
 }
 
 .WallHeader {
-  background: url("https://previews.dropbox.com/p/thumb/AB5GcwzaMFhP9DDSK2aV3C5jqVwNuxRReds4vuCB38PIANd4miSYyEdGmnVkuR7XxLVwHGYg-CfvetcYDGnmW-9YqFCR7vvRoX8dW7wFxuZ1-379_KNZcS7w1RYgDu8fLjt9Eb-ZdJ2s1DnIQz0dqwFHcjm_xf2FaNQe2dQUxK2UyRD0SUJMGYFM19huQOmFHLQEas-T0M5XTJIoG-WFFLHyJPQY7xlf89Nz4ujKw8QZGqATfTGcBy2nHl7-hcv3ZmtphxWQzm9t3at6SdRBx8wy-GYx5-bHdlOg2wII4-kTv6SHwpi8WOZ9G8hQM9A-AeZx20CmlZdRSQD0NNATp9eXv1wYGj9CmFQPSsixLghc-3wSSUjGGPdvd7DXLuoc3zM/p.png")
-    no-repeat center center;
+  background: url("../../public/img/Fishing.png") no-repeat center center;
   background-size: cover;
 }
 
 .WallAbout {
-  background: url("https://previews.dropbox.com/p/thumb/AB5q39F5FznP7jSW7RZcliIWGs6BXuL2u0iwKiXHcpKLsgo37UNno4JIuNA7l8kVSyYNxA-Lxn96EJNIpAVMpF2icvmMGHzhrZWy8fQ3nioQUkNIOCca50enlAD1av9gepvLN7_k9EqHjl8CSsBC5BKeoAcYGKLPa7AXW0V5w9wV_u4ygJTfw9Y2B8bto1Nu2xIlbCMdLVcl84jWKoqQo-RMo2rzYrY5o8A-cmFwVfkCl4BoXOr6ruFzBvG5IDg5QOBRiHA98kDTlTcbcspFaJ3dXlUCL6ubcWRaUXwuYdbRHLX0_d-1xHEW4KpdN9ESmirKmnHTct8knaBUodcYo0PgiOG-CkZdhJwlRnhViAlm9RVB9xKOLek9aumRVYc52EA/p.png")
-    no-repeat center center;
+  background: url("../../public/img/SantaRita.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -101,10 +99,6 @@ a.NavLink:hover {
   border: 0px;
   border-radius: 60px;
   font-size: max(1vmin, 15px);
-}
-
-.Botão.Espace {
-  margin-right: 15px;
 }
 
 .NavLogo {
@@ -178,10 +172,9 @@ p.HeadText {
 
 .IconeCard {
   padding: 10px;
-  width: 18vw;
-  height: 18vw;
-  max-width: 200px;
-  max-height: 200px;
+  width: 100%;
+  height: auto;
+  max-width: 180px;
 }
 
 /*
@@ -195,7 +188,7 @@ p.HeadText {
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 100%;
+  max-width: 80vw;
   height: 75vmin;
 }
 
@@ -212,12 +205,16 @@ h2.AboutText {
 }
 p.AboutText {
   margin-top: 30px;
-  font-size: max(2vmin, 15px);
+  font-size: max(2vmin, 10px);
   font-weight: 400;
 }
 
+/*Logo about style*/
+.MarginLogo {
+  margin-right: 10px;
+}
+
 .AboutLogo {
-  margin-right: 30px;
   height: 40vw;
   min-height: 200px;
   max-height: 600px;
