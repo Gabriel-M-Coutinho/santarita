@@ -6,6 +6,7 @@ import Header from "../Components/Header";
 import Cards from "../Components/Cards";
 import About from "@/Components/About";
 import Opening from "@/Components/Opening";
+import NavFoot from "@/Components/NavFoot";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,8 @@ export default function Home() {
           <Header />
           <Cards />
           <About />
-
+          <Opening />
+          <NavFoot />
         </div>
       </main>
     </>

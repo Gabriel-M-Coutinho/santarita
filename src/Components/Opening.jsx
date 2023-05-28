@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 
 function Opening() {
   return (
-    <Container>
+    <Container fluid>
       <Row style={{ margin: "50px 0px" }} className="FontFamily">
         <Col>
           <Card className="Centro Cartão">
@@ -20,11 +20,9 @@ function Opening() {
               <Card.Text className="TextCard">
                 ABERTO TODOS OS DIAS AS:
               </Card.Text>
-              <Card.Text className="TextCard">
-                <h4>
-                  <strong>07:00 as 17:00</strong>
-                </h4>
-              </Card.Text>
+              <p className="TextCard">
+                <strong>07:00 as 17:00</strong>
+              </p>
             </Card.Body>
           </Card>
           <Card className="Centro Cartão BackColor">
