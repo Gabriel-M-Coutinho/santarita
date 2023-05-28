@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -6,10 +5,10 @@ import Row from "react-bootstrap/Row";
 
 function Opening() {
   return (
-    <Container fluid>
+    <Container fluid id="Opening">
       <Row style={{ margin: "50px 0px" }} className="FontFamily">
         <Col>
-          <Card className="Centro Cartão">
+          <Card className="Centro Cartão FocusInDaley">
             <Card.Body>
               <h3>
                 <strong>Local e horários</strong>
@@ -18,7 +17,7 @@ function Opening() {
                 Rod. Benevenuto Moretto km 6,5 - Bragança Pta
               </Card.Text>
               <Card.Text className="TextCard">
-                ABERTO TODOS OS DIAS AS:
+                <strong>ABERTO TODOS OS DIAS AS:</strong>
               </Card.Text>
               <p className="TextCard">
                 <strong>07:00 as 17:00</strong>
@@ -27,11 +26,16 @@ function Opening() {
           </Card>
           <Card className="Centro Cartão BackColor">
             <Card.Body>
-              <h3>
+              <h3 className="GapVert FocusIn">
                 <strong>O que proporcionamos:</strong>
               </h3>
-              <div style={{ textAlign: "start" }}>
-                <Row>
+              <div
+                style={{
+                  textAlign: "start",
+                  maxWidth: "650px",
+                }}
+              >
+                <Row className="GapVert FocusInDaley">
                   <Col>
                     <Card.Text className="TextCard">
                       <strong>Shows ao vivo com artistas convidados</strong>
@@ -48,7 +52,7 @@ function Opening() {
                   </Col>
                 </Row>
 
-                <Row>
+                <Row className="GapVert FocusInDaley">
                   <Col>
                     <Card.Text className="TextCard">
                       <strong>Competições e premiações</strong>
@@ -67,7 +71,7 @@ function Opening() {
                   </Col>
                 </Row>
 
-                <Row>
+                <Row className="GapVert FocusInDaley">
                   <Col>
                     <Card.Text className="TextCard">
                       <strong>Segurança e conforto para as crianças</strong>

@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -6,14 +5,14 @@ import Image from "react-bootstrap/Image";
 
 function About() {
   return (
-    <div className=" FontFamily WallAbout">
-      <Container className="AboutBack">
+    <div className="FontFamily WallAbout" id="About">
+      <Container className="AboutBack GapHori">
         <Row>
-          <Col>
-            <h2 className="AboutText">
+          <Col className="GapHori">
+            <h2 className="AboutText FocusIn">
               Frescor,<br></br>Autenticidade,<br></br>Simplicidade.
             </h2>
-            <p className="AboutText">
+            <p className="AboutText FocusInDaley">
               No nosso estabelecimento, oferecemos uma experiência completa para
               os amantes da pesca, da boa comida e da tranquilidade de um local
               acolhedor. Situado em um cenário pitoresco, combinamos a emoção da
@@ -21,12 +20,12 @@ function About() {
               estadia agradável.
             </p>
           </Col>
-          <Col xs={5} className="MarginLogo">
+          <Col xs={5} className="MarginLogo d-flex align-items-center">
             <Image
-              className="AboutLogo"
+              className="AboutLogo FocusInDaley"
               src="/img/logobranca.png"
-              alt="aaa"
-            ></Image>
+              alt="Santa Rita Gigantes"
+            />
           </Col>
         </Row>
       </Container>

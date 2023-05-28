@@ -2,16 +2,14 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import NavBar from "../Components/NavBar";
-import Header from "../Components/Header";
-import Cards from "../Components/Cards";
-import About from "@/Components/About";
-import Opening from "@/Components/Opening";
-import Social from "@/Components/Social";
+import CarouPesque from "../Components/CarouPesque";
+import CarouHospe from "@/Components/CarouHospe";
+import CarouRestau from "@/Components/CarouRestau";
 import NavFoot from "@/Components/NavFoot";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function infos() {
   return (
     <>
       <Head>
@@ -21,13 +19,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description + ""}>
+        <div className={styles.description}>
           <NavBar />
-          <Header />
-          <Cards />
-          <About />
-          <Opening />
-          <Social />
+          <div style={{ paddingTop: "50px" }}>
+            <CarouPesque />
+          </div>
+          <CarouHospe />
+          <CarouRestau />
           <NavFoot />
         </div>
       </main>
