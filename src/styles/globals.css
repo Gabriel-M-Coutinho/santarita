@@ -189,14 +189,15 @@ p.HeadText {
   align-items: center;
   justify-content: flex-start;
   max-width: 80vw;
-  height: 75vmin;
+  height: auto;
 }
 
 /*About texts*/
 .AboutText {
   margin-left: -30px;
+  margin-bottom: 50px;
   color: white;
-  max-width: 500px;
+  max-width: 350px;
 }
 h2.AboutText {
   margin-top: 15%;
@@ -204,7 +205,7 @@ h2.AboutText {
   font-weight: bold;
 }
 p.AboutText {
-  margin-top: 30px;
+  margin-top: -30px;
   font-size: max(2vmin, 10px);
   font-weight: 400;
 }
@@ -216,6 +217,5 @@ p.AboutText {
 
 .AboutLogo {
   height: 40vw;
-  min-height: 200px;
   max-height: 600px;
 }
