@@ -8,17 +8,17 @@ Dependências
 
 O programa possui as seguintes dependências:
 
-    "next": dependência principal para criação de aplicativos com Next.js.
-    "next/head": permite controlar a cabeça do documento HTML.
-    "next/font/google": fornece acesso a fontes da web do Google.
-    "@/styles/Home.module.css": arquivo CSS que contém estilos específicos para a página inicial.
-    "../Components/NavBar": componente de barra de navegação.
-    "../Components/Header": componente de cabeçalho.
-    "../Components/Cards": componente de cartões.
-    "@/Components/About": componente de informações sobre a empresa.
-    "@/Components/Opening": componente de horários de funcionamento.
-    "@/Components/Social": componente de links para redes sociais.
-    "@/Components/NavFoot": componente de rodapé de navegação.
+ "next": dependência principal para criação de aplicativos com Next.js.
+ "next/head": permite controlar a cabeça do documento HTML.
+ "next/font/google": fornece acesso a fontes da web do Google.
+ "@/styles/Home.module.css": arquivo CSS que contém estilos específicos para a página inicial.
+ "../Components/NavBar": componente de barra de navegação.
+ "../Components/Header": componente de cabeçalho.
+ "../Components/Cards": componente de cartões.
+ "@/Components/About": componente de informações sobre a empresa.
+ "@/Components/Opening": componente de horários de funcionamento.
+ "@/Components/Social": componente de links para redes sociais.
+ "@/Components/NavFoot": componente de rodapé de navegação.
 
 Função Principal
 
@@ -57,22 +57,22 @@ Componentes Importados
 
 O programa importa os seguintes componentes:
 
-    NavBar: componente responsável pela exibição da barra de navegação.
-    Header: componente responsável pela exibição do cabeçalho.
-    Cards: componente responsável pela exibição dos cartões.
-    About: componente responsável pela exibição das informações sobre a empresa.
-    Opening: componente responsável pela exibição dos horários de funcionamento.
-    Social: componente responsável pela exibição dos links para redes sociais.
-    NavFoot: componente responsável pela exibição do rodapé de navegação.
+NavBar: componente responsável pela exibição da barra de navegação.
+Header: componente responsável pela exibição do cabeçalho.
+Cards: componente responsável pela exibição dos cartões.
+About: componente responsável pela exibição das informações sobre a empresa.
+Opening: componente responsável pela exibição dos horários de funcionamento.
+Social: componente responsável pela exibição dos links para redes sociais.
+NavFoot: componente responsável pela exibição do rodapé de navegação.
 
 Cabeçalho
 
 O cabeçalho do documento HTML é definido utilizando o componente Head importado de "next/head". Ele contém as seguintes configurações:
 
-    Título da página: "Santa Rita Gigantes".
-    Meta descrição: uma descrição em branco.
-    Meta viewport: define a largura do dispositivo como igual à largura da janela de visualização e a escala inicial como 1.
-    Ícone do site: o arquivo "/favicon.ico".
+Título da página: "Santa Rita Gigantes".
+Meta descrição: uma descrição em branco.
+Meta viewport: define a largura do dispositivo como igual à largura da janela de visualização e a escala inicial como 1.
+Ícone do site: o arquivo "/favicon.ico".
 
 Estrutura da Página
 
@@ -81,14 +81,14 @@ A estrutura da página inicial
 A estrutura da página inicial é definida dentro do elemento <main> com a classe styles.main.
 
 Dentro desse elemento, há um elemento <div> com a classe styles.description. Dentro desse elemento são renderizados os componentes importados, na seguinte ordem:
-
-    NavBar: Responsável pela exibição da barra de navegação.
-    Header: Responsável pela exibição do cabeçalho.
-    Cards: Responsável pela exibição dos cartões.
-    About: Responsável pela exibição das informações sobre a empresa.
-    Opening: Responsável pela exibição dos horários de funcionamento.
-    Social: Responsável pela exibição dos links para redes sociais.
-    NavFoot: Responsável pela exibição do rodapé de navegação.
+   
+   NavBar: Responsável pela exibição da barra de navegação.
+   Header: Responsável pela exibição do cabeçalho.
+   Cards: Responsável pela exibição dos cartões.
+   About: Responsável pela exibição das informações sobre a empresa.
+   Opening: Responsável pela exibição dos horários de funcionamento.
+   Social: Responsável pela exibição dos links para redes sociais.
+   NavFoot: Responsável pela exibição do rodapé de navegação.
 
 Essa estrutura define a ordem em que os componentes serão exibidos na página inicial.
 Estilos
