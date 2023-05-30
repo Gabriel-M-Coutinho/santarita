@@ -3,32 +3,42 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
+import Link from "next/link";
 
 function NavFoot() {
   return (
     <Container fluid id="Navfoot">
       <Row className="navFoot Cartão BackColor">
-        <Col xs={2}>
+        <Col>
           <div className="InfosFoot">
             <strong>Contato</strong>
-            <div>(00) 0000-0000</div>
-            <div>info@peixeiro.com</div>
+            <div>(11) 97602 - 3098</div>
+            <div>joaovitorfernandes9@hotmail.com</div>
           </div>
+          <p className="InfosFoot" style={{ margin: "10px 0px 0px -20px" }}>
+            <Link
+              className="NavLink BackColor"
+              href="https://www.wowcreations.com.br"
+            >
+              <strong>by WOWCreations</strong>
+            </Link>
+          </p>
         </Col>
-        <Col xs={2}>
-          <div className="InfosFoot">
-            <strong>Endereço</strong>
-            <div>Rod. Benevenuto Moretto km 6,5 - Bragança Pta</div>
-          </div>
-        </Col>
-        <Col xs={2}>
+        <Col>
           <div className="InfosFoot">
             <strong>Horário</strong>
             <div>Todos os dias</div>
             <div>Das 07:00 as 17:00</div>
           </div>
         </Col>
-        <Col xs={6} className="ToggleDir">
+        <Col>
+          <div className="InfosFoot">
+            <strong>Endereço</strong>
+            <div>Rod. Benevenuto Moretto</div>
+            <div>km 6,5 - Bragança Pta</div>
+          </div>
+        </Col>
+        <Col className="ToggleDir">
           <Image
             className="FootLogo d-flex align-items-center"
             src="/img/logobranca.png"

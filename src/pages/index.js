@@ -8,6 +8,7 @@ import About from "@/Components/About";
 import Opening from "@/Components/Opening";
 import Social from "@/Components/Social";
 import NavFoot from "@/Components/NavFoot";
+import InstaFotos from "@/Components/InstaFotos";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,13 +22,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description + ""}>
+        <div className={styles.description}>
           <NavBar />
           <Header />
           <Cards />
           <About />
           <Opening />
           <Social />
+          <InstaFotos />
           <NavFoot />
         </div>
       </main>

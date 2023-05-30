@@ -52,7 +52,14 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
-  transition: 0.1s;
+}
+
+:hover {
+  transition: 0.2s;
+}
+
+* {
+  transition: 0.2s;
 }
 
 .FontFamily {
@@ -129,13 +136,15 @@ body {
 }
 
 /*Name logo*/
-h5.NameBrand {
+p.NameBrand {
+  font-weight: 500;
   width: 100px;
   font-size: 16px;
   margin: 0px;
 }
 
-h6.NameBrand {
+p.NameBrandTiny {
+  font-weight: 500;
   font-size: 13.8px;
   margin: 0px;
 }
@@ -143,17 +152,14 @@ h6.NameBrand {
 /*Links design*/
 .NavLink {
   margin: 5px 20px;
+  font-weight: 500;
   text-decoration: none;
 }
 .NavLink.active,
 .NavLink:hover {
   text-decoration: none;
-  font-weight: 500;
-}
-
-.link {
-  margin-left: -10px;
-  text-decoration: none;
+  font-weight: 600;
+  color: #4875e7 !important;
 }
 
 /*button design*/
@@ -163,6 +169,11 @@ h6.NameBrand {
   border: 0px;
   border-radius: 60px;
   font-size: max(1vmin, 15px);
+}
+
+.Botão:hover {
+  background-color: #4875e7 !important;
+  transform: scale(1.05);
 }
 
 .NavLogo {
@@ -290,8 +301,8 @@ p.AboutText {
 /*
 /* ANCHOR - SOCIAL MEDIA   --------------------------------------------------------- */
 
-.SocialLogo {
-  margin: 0px 20px;
+.link {
+  text-decoration: none;
 }
 
 .IMGSocial {
@@ -299,6 +310,16 @@ p.AboutText {
   height: auto;
   padding: 0px;
   margin: 0px;
+}
+
+.IMGSocial:hover {
+  transform: scale(1.02);
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.NavLogo:hover {
+  transform: scale(1.1);
 }
 
 /*
@@ -312,7 +333,7 @@ p.AboutText {
 }
 
 .InfosFoot {
-  font-size: max(1.5vmin, 8px);
+  font-size: max(1.5vmin, 9px);
 }
 
 .FootLogo {
@@ -327,26 +348,61 @@ p.AboutText {
 /* ANCHOR - CAROUSEL BOOTSTRAP --------------------------------------------------------- */
 
 .Carrossel {
-  margin: 0px 0px 0px 0px;
-  padding: 50px 0px;
-  width: 100vw;
-  height: auto;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vw;
+  max-height: 80vh;
+  flex-direction: column;
 }
 
-.CarrosselItem {
-  padding: 10px;
-  width: 500px;
-  height: 500px;
+.CarroTextDiv {
+  max-width: "800px";
+  padding: 20px;
 }
 
 .CarroHeader {
   text-transform: uppercase;
-  font-size: max(4vmin, 25px);
+  font-size: max(5vmin, 25px);
   font-weight: bold;
 }
 
 .CarroText {
-  width: 500px !important;
-  font-size: max(1vmin, 13px);
+  font-size: max(2vmin, 13px);
   margin-bottom: 30px;
+}
+
+.CarrosselItem {
+  border-radius: 5%;
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel:hover {
+  transform: scale(1.02);
+  z-index: 5;
+}
+
+.carousel-indicators [data-bs-target] {
+  opacity: 0% !important;
+}
+
+.carousel-control-prev-icon {
+  opacity: 0% !important;
+}
+
+.carousel-control-next-icon {
+  opacity: 0% !important;
+}
+
+.LeftLessGap {
+  margin-left: 2vh;
+}
+
+.RightLessGap {
+  margin-left: -2vh;
 }

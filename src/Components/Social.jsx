@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
+import Link from "next/link";
 
 function Social() {
   return (
@@ -12,48 +13,78 @@ function Social() {
       <Container className="GapVert Centro FocusInDaley">
         <Row style={{ marginBottom: "50px" }}>
           <Col className="Centro SocialLogo">
-            <Image className="NavLogo" src="/icons/Face.png" alt="Facebook" />
+            <Link
+              className="link"
+              style={{ marginLeft: "5px" }}
+              href="https://www.facebook.com/pesqueirosantaritagigantes/"
+              target="_blank"
+            >
+              <Image className="NavLogo" src="/icons/Face.png" alt="Facebook" />
+              <h6
+                style={{ marginRight: "5px", color: "black", fontSize: "13px" }}
+              >
+                face
+              </h6>
+            </Link>
           </Col>
           <Col className="Centro SocialLogo">
-            <Image className="NavLogo" src="/icons/Insta.png" alt="Instagram" />
+            <Link
+              className="link"
+              style={{ marginLeft: "5px" }}
+              href="https://www.instagram.com/santa_rita_gigantes/"
+              target="_blank"
+            >
+              <Image
+                className="NavLogo"
+                src="/icons/Insta.png"
+                alt="Instagram"
+              />
+              <h6
+                style={{ marginRight: "5px", color: "black", fontSize: "13px" }}
+              >
+                Insta
+              </h6>
+            </Link>
           </Col>
           <Col className="Centro SocialLogo">
-            <Image className="NavLogo" src="/icons/Tel.png" alt="Telefone" />
+            <Link
+              className="link"
+              style={{ marginLeft: "5px" }}
+              href="https://wa.me/5511976023098?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
+              target="_blank"
+            >
+              <Image
+                className="NavLogo"
+                src="/icons/Whats.png"
+                alt="Whatsapp"
+              />
+              <h6
+                style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
+              >
+                Whats1
+              </h6>
+            </Link>
           </Col>
           <Col className="Centro SocialLogo">
-            <Image className="NavLogo" src="/icons/Whats.png" alt="Whatsapp" />
+            <Link
+              className="link"
+              style={{ marginLeft: "5px" }}
+              href="https://wa.me/5511976023098?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
+              target="_blank"
+            >
+              <Image
+                className="NavLogo"
+                src="/icons/Whats.png"
+                alt="Whatsapp"
+              />
+              <h6
+                style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
+              >
+                Whats2
+              </h6>
+            </Link>
           </Col>
         </Row>
-      </Container>
-      <Container fluid className="GapVert Centro FocusInDaley">
-        <div className="NoGap">
-          <Image
-            className="IMGSocial"
-            src="/img/pesqueiro01.png"
-            alt="pesqueiro01"
-          />
-        </div>
-        <div className="NoGap">
-          <Image
-            className="IMGSocial"
-            src="/img/pesqueiro02.png"
-            alt="pesqueiro02"
-          />
-        </div>
-        <div className="NoGap">
-          <Image
-            className="IMGSocial"
-            src="/img/pesqueiro03.png"
-            alt="pesqueiro03"
-          />
-        </div>
-        <div className="NoGap">
-          <Image
-            className="IMGSocial"
-            src="/img/pesqueiro04.png"
-            alt="pesqueiro04"
-          />
-        </div>
       </Container>
     </div>
   );

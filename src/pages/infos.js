@@ -21,7 +21,7 @@ export default function infos() {
       <main className={styles.main}>
         <div className={styles.description}>
           <NavBar />
-          <div style={{ paddingTop: "50px" }}>
+          <div style={{ paddingTop: "30px" }}>
             <CarouPesque />
           </div>
           <CarouHospe />
