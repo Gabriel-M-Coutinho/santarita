@@ -119,6 +119,7 @@ body {
   padding: 0;
   width: 100%;
   font-weight: 300;
+  height: 70px;
   z-index: 10;
 }
 
@@ -348,15 +349,9 @@ p.AboutText {
 /* ANCHOR - CAROUSEL BOOTSTRAP --------------------------------------------------------- */
 
 .Carrossel {
-  margin: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 3vw;
+  padding-bottom: 8vw;
   text-align: center;
-  height: 90vw;
-  max-height: 80vh;
-  flex-direction: column;
 }
 
 .CarroTextDiv {
@@ -405,4 +400,8 @@ p.AboutText {
 
 .RightLessGap {
   margin-left: -2vh;
+}
+
+.test {
+  margin-top: 5vw;
 }

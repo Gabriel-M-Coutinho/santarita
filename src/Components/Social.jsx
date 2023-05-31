@@ -13,7 +13,7 @@ function Social() {
       <Container className="GapVert Centro FocusInDaley">
         <Row style={{ marginBottom: "50px" }}>
           <Col className="Centro SocialLogo">
-            <Link
+            <a
               className="link"
               style={{ marginLeft: "5px" }}
               href="https://www.facebook.com/pesqueirosantaritagigantes/"
@@ -25,10 +25,10 @@ function Social() {
               >
                 face
               </h6>
-            </Link>
+            </a>
           </Col>
           <Col className="Centro SocialLogo">
-            <Link
+            <a
               className="link"
               style={{ marginLeft: "5px" }}
               href="https://www.instagram.com/santa_rita_gigantes/"
@@ -44,10 +44,10 @@ function Social() {
               >
                 Insta
               </h6>
-            </Link>
+            </a>
           </Col>
           <Col className="Centro SocialLogo">
-            <Link
+            <a
               className="link"
               style={{ marginLeft: "5px" }}
               href="https://wa.me/5511976023098?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
@@ -63,13 +63,13 @@ function Social() {
               >
                 Whats1
               </h6>
-            </Link>
+            </a>
           </Col>
           <Col className="Centro SocialLogo">
-            <Link
+            <a
               className="link"
               style={{ marginLeft: "5px" }}
-              href="https://wa.me/5511976023098?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
+              href="https://wa.me/5511987826354?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
               target="_blank"
             >
               <Image
@@ -82,7 +82,26 @@ function Social() {
               >
                 Whats2
               </h6>
-            </Link>
+            </a>
+          </Col>
+          <Col className="Centro SocialLogo">
+            <a
+              className="link"
+              style={{ marginLeft: "5px" }}
+              href="mailto:joaovitorfernandes9@hotmail.com"
+              target="_blank"
+            >
+              <Image
+                className="NavLogo"
+                src="/icons/Email.png"
+                alt="Whatsapp"
+              />
+              <h6
+                style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
+              >
+                Whats2
+              </h6>
+            </a>
           </Col>
         </Row>
       </Container>
