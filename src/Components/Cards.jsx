@@ -8,7 +8,7 @@ function Cards() {
   return (
     <Container id="Cards">
       <Row style={{ margin: "50px 0px" }} className="Centro FontFamily">
-        <Col>
+        <Col xs={4}>
           <Card className="Centro Cartão FocusInDaley">
             <Card.Img
               className="IconeCard"
@@ -26,7 +26,7 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={4}>
           <Card className="Centro Cartão FocusInDaley">
             <Card.Img
               className="IconeCard"
@@ -44,7 +44,7 @@ function Cards() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={4}>
           <Card className="Centro Cartão FocusInDaley">
             <Card.Img
               className="IconeCard"

@@ -19,7 +19,11 @@ function Social() {
               href="https://www.facebook.com/pesqueirosantaritagigantes/"
               target="_blank"
             >
-              <Image className="NavLogo" src="/icons/Face.png" alt="Facebook" />
+              <Image
+                className="SocialLogo"
+                src="/icons/Face.png"
+                alt="Facebook"
+              />
               <h6
                 style={{ marginRight: "5px", color: "black", fontSize: "13px" }}
               >
@@ -35,7 +39,7 @@ function Social() {
               target="_blank"
             >
               <Image
-                className="NavLogo"
+                className="SocialLogo"
                 src="/icons/Insta.png"
                 alt="Instagram"
               />
@@ -54,7 +58,7 @@ function Social() {
               target="_blank"
             >
               <Image
-                className="NavLogo"
+                className="SocialLogo"
                 src="/icons/Whats.png"
                 alt="Whatsapp"
               />
@@ -73,7 +77,7 @@ function Social() {
               target="_blank"
             >
               <Image
-                className="NavLogo"
+                className="SocialLogo"
                 src="/icons/Whats.png"
                 alt="Whatsapp"
               />
@@ -92,14 +96,14 @@ function Social() {
               target="_blank"
             >
               <Image
-                className="NavLogo"
+                className="SocialLogo"
                 src="/icons/Email.png"
                 alt="Whatsapp"
               />
               <h6
                 style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
               >
-                Email
+                Whats2
               </h6>
             </a>
           </Col>

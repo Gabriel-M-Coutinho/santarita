@@ -6,9 +6,14 @@ import Image from "react-bootstrap/Image";
 
 function CarouRestau() {
   return (
-    <Container fluid className="Carrossel" id="Restau">
+    <Container
+      fluid
+      className="Carrossel"
+      id="Restau"
+      style={{ marginTop: "-4.5vw" }}
+    >
       <Row className="CarroTextDiv">
-        <h3 className="CarroHeader FocusIn">Restaurante</h3>
+        <h3 className="CarroHeader FocusIn TextColor">Restaurante</h3>
         <h6 className="CarroText FocusInDaley">
           Desperte seus sentidos com uma explosão de sabores: delicie-se em
           nosso restaurante e descubra uma experiência gastronômica
@@ -67,8 +72,8 @@ function CarouRestau() {
             </Carousel>
           </Col>
 
-          <Col className="RightLessGap">
-            <Carousel fade>
+          <Col>
+            <Carousel fade className="RightLessGap">
               <Carousel.Item
                 className="d-flex justify-content-center"
                 interval={2500}

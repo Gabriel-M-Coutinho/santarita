@@ -75,12 +75,12 @@ body {
 }
 
 .TextColor {
-  color: #344e90 !important;
+  color: #3b77e6 !important;
 }
 
 .BackColor {
   color: white;
-  background-color: #344e90 !important;
+  background: #3b77e6 !important;
 }
 
 .WallHeader {
@@ -119,8 +119,7 @@ body {
   padding: 0;
   width: 100%;
   font-weight: 300;
-  min-height: 70px;
-  height: fit-content;
+  height: 70px;
   z-index: 10;
 }
 
@@ -156,12 +155,14 @@ p.NameBrandTiny {
   margin: 5px 20px;
   font-weight: 500;
   text-decoration: none;
+  opacity: 80%;
 }
 .NavLink.active,
 .NavLink:hover {
+  opacity: 100%;
   text-decoration: none;
   font-weight: 600;
-  color: #4875e7 !important;
+  color: #196cd8 !important;
 }
 
 /*button design*/
@@ -174,12 +175,12 @@ p.NameBrandTiny {
 }
 
 .Botão:hover {
-  background-color: #4875e7 !important;
-  transform: scale(1.05);
+  background-color: #6ca6fd !important;
 }
 
 .NavLogo {
-  height: 50px;
+  min-height: 60px;
+  max-height: 3.8vw;
   margin-left: -5px;
 }
 
@@ -228,7 +229,7 @@ p.HeadText {
 
 .Cartão {
   border: 0px !important;
-  padding: 30px 10px;
+  padding: 4% 2%;
 }
 
 .TituloCard {
@@ -237,6 +238,7 @@ p.HeadText {
 }
 
 .TextCard {
+  min-width: 120px;
   margin: 20px 0px;
   font-size: max(1.8vmin, 13px);
   font-weight: 500;
@@ -320,8 +322,14 @@ p.AboutText {
   border-radius: 10px;
 }
 
-.NavLogo:hover {
+.SocialLogo:hover {
   transform: scale(1.1);
+}
+
+.SocialLogo {
+  margin: 0px 0.5vw;
+  min-width: 40px;
+  max-width: 3vw;
 }
 
 /*
@@ -353,6 +361,7 @@ p.AboutText {
   padding-top: 3vw;
   padding-bottom: 8vw;
   text-align: center;
+  border-radius: 20px;
 }
 
 .CarroTextDiv {
