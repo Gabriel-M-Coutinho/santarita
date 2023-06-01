@@ -103,7 +103,7 @@ function Social() {
               <h6
                 style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
               >
-                Whats2
+                Email
               </h6>
             </a>
           </Col>
