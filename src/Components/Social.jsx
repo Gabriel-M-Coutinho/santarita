@@ -25,7 +25,7 @@ function Social() {
                 alt="Facebook"
               />
               <h6
-                style={{ marginRight: "5px", color: "black", fontSize: "13px" }}
+                style={{color: "black", fontSize: "13px" }}
               >
                 face
               </h6>
@@ -44,7 +44,7 @@ function Social() {
                 alt="Instagram"
               />
               <h6
-                style={{ marginRight: "5px", color: "black", fontSize: "13px" }}
+                style={{color: "black", fontSize: "13px" }}
               >
                 Insta
               </h6>
@@ -63,7 +63,7 @@ function Social() {
                 alt="Whatsapp"
               />
               <h6
-                style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
+                style={{color: "black", fontSize: "12px" }}
               >
                 Whats1
               </h6>
@@ -82,7 +82,7 @@ function Social() {
                 alt="Whatsapp"
               />
               <h6
-                style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
+                style={{color: "black", fontSize: "12px" }}
               >
                 Whats2
               </h6>
@@ -101,7 +101,7 @@ function Social() {
                 alt="Whatsapp"
               />
               <h6
-                style={{ marginRight: "5px", color: "black", fontSize: "12px" }}
+                style={{color: "black", fontSize: "12px" }}
               >
                 Email
               </h6>
