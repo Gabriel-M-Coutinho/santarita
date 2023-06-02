@@ -8,7 +8,7 @@ function CarouPesque() {
   return (
     <Container fluid className="Carrossel" id="Pesque">
       <Row className="CarroTextDiv">
-        <h3 className="CarroHeader FocusIn">Pesqueiro</h3>
+        <h3 className="CarroHeader FocusIn TextColor">Pesqueiro</h3>
         <h6 className="CarroText FocusInDaley">
           Descubra o paraíso dos pescadores: venha viver uma experiência única
           em nosso deslumbrante pesqueiro!
