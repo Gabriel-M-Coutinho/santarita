@@ -1,42 +1,46 @@
-Documentação da Landing Page
+<h6 align="center">Documentação da Landing Page</h6><h3 align="center">Santa Rita Gigantes</h3>
 ![Santa Rita](https://github.com/BulboGC/santarita/raw/main/SantaRita.png)
 
 
-Esta é a documentação para a Landing Page do projeto Santarita. A Landing Page é um site estático desenvolvido para promover e fornecer informações sobre o produto ou serviço oferecido pelo projeto.
-Estrutura do Projeto
-S
-O projeto está organizado da seguinte maneira:
+<p align="center">Esta é a documentação para a Landing Page do projeto Santa Rita Gigantes. A Landing Page é um site estático desenvolvido para promover e fornecer informações sobre o produto ou serviço oferecido pelo projeto.</p>
 
-css
+<h6 align="center">Estrutura do Projeto:</h6>
 
-├── styles/
-│   ├── style.css
-├── pages/
-│   ├── app.js
-├── components/
-│   ├── component.jsx
-└── README.md
+<p align="center">O projeto está organizado da seguinte maneira:</p>
 
-   A pasta styles/ contém os arquivos CSS responsável pelo estilo da página.
-   A pasta pages/ contém os arquivos JavaScript responsável pelas funcionalidades interativas da página.
-   A pasta components/ contém funçoes responsaveis por partes específicas da aplicação como a navbar
-   O arquivo index.html é o ponto de entrada da Landing Page.
-   O arquivo README.md contém esta documentação.
+<h6 align="center">css</h6>
 
-Como usar
+    ├── styles/
+    │   ├── style.css
+    ├── pages/
+    │   ├── app.js
+    ├── components/
+    │   ├── component.jsx
+    └── README.md
 
-   Clone este repositório em sua máquina local:
+<b>styles/</b> contém os arquivos CSS responsável pelo estilo da página.
+<b>pages/</b> contém os arquivos JavaScript responsável pelas funcionalidades interativas da página.
+<b>components/</b> contém funçoes responsaveis por partes específicas da aplicação como a navbar
+<b>index.html</b> é o ponto de entrada da Landing Page.
+<b>README.md</b> contém esta documentação.
 
-   bash
+<br>
+<h6 align="center">Como usar</h6>
+
+<p align="center">Clone este repositório em sua máquina local:</p>
+
+ <b>bash</b>
 
     git clone https://github.com/seu-usuario/santarita.git
 
    
-  execute o comando:
+  <b>execute o comando:</b>
    ```npm install```
-  agora é só iniciar o projeto com:
+  <b>agora é só iniciar o projeto com:</b>
    ```npm run dev ```
-Personalização
+   
+<br>
+<h6 align="center">Personalização</h6>
 
 Caso deseje personalizar a Landing Page, você pode editar os arquivos dentro da pasta styles/ e pages/ para ajustar o estilo e as funcionalidades de acordo com suas necessidades. 
 
