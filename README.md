@@ -20,9 +20,13 @@
     └── README.md
 
 <b>styles/</b> contém os arquivos CSS responsável pelo estilo da página.
+
 <b>pages/</b> contém os arquivos JavaScript responsável pelas funcionalidades interativas da página.
+
 <b>components/</b> contém funçoes responsaveis por partes específicas da aplicação como a navbar
+
 <b>index.html</b> é o ponto de entrada da Landing Page.
+
 <b>README.md</b> contém esta documentação.
 
 <br>
