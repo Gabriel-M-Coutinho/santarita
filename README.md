@@ -1,4 +1,7 @@
-<h6 align="center">Documentação da Landing Page</h6><h3 align="center">Santa Rita Gigantes</h3>
+<h6 align="center">Documentação da Landing Page</h6>
+<h6 align="center">LINK DO PROJETO:
+    
+[Santa Rita Gigantes](https://www.pesqueirosantaritagigantes.com.br/ "Santa Rita Gigantes")</h6>
 
 ![Santa Rita](https://github.com/BulboGC/santarita/raw/main/SantaRita.png)
 
