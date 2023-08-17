@@ -1,4 +1,5 @@
 <h6 align="center">Documentação da Landing Page</h6><h3 align="center">Santa Rita Gigantes</h3>
+
 ![Santa Rita](https://github.com/BulboGC/santarita/raw/main/SantaRita.png)
 
 
