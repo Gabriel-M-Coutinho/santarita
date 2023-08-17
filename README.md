@@ -1,8 +1,10 @@
 Documentação da Landing Page
+![Santa Rita](https://github.com/BulboGC/santarita/raw/main/SantaRita.png)
+
 
 Esta é a documentação para a Landing Page do projeto Santarita. A Landing Page é um site estático desenvolvido para promover e fornecer informações sobre o produto ou serviço oferecido pelo projeto.
 Estrutura do Projeto
-
+S
 O projeto está organizado da seguinte maneira:
 
 css
