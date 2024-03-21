@@ -54,7 +54,7 @@ function Social() {
             <a
               className="link"
               style={{ marginLeft: "5px" }}
-              href="https://wa.me/5511976023098?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
+              href="https://wa.me/5511993480155?text=Ola%2C+estou+entrando+em+contato+pelo+site+do+Santa+Rita+Gigantes+e+gostaria+de+saber+um+pouco+mais+sobre+o+pesqueiro."
               target="_blank"
             >
               <Image
