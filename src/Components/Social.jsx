@@ -35,7 +35,7 @@ function Social() {
             <a
               className="link"
               style={{ marginLeft: "5px" }}
-              href="https://www.instagram.com/santa_rita_gigantes/"
+              href="https://www.instagram.com/pesqueirosantaritagigantes/"
               target="_blank"
             >
               <Image
