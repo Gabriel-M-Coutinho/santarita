@@ -17,5 +17,8 @@
     "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23"
+  },
+  "engine": {
+    "node": "22.x"
   }
 }
